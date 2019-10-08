@@ -1655,7 +1655,6 @@ describe('TicTacToe', () => {
 
             game.nextTurn(0, 1);
             expect(game.isDraw()).to.equal(false);
-
         });
     });
     describe('#noMoreTurns', () => {
@@ -3401,7 +3400,6 @@ describe('TicTacToe', () => {
 
             game.nextTurn(0, 2)
             expect(game.isFinished()).to.equal(true)
-
         });
     });
     describe('#nextTurn', () => {
@@ -4730,7 +4728,6 @@ describe('TicTacToe', () => {
             expect(game.isDraw()).to.equal(false);
             expect(game.getFieldValue(1, 0)).to.equal('x')
             expect(game.getCurrentPlayerSymbol()).to.equal('o')
-
         });
     });
 });
